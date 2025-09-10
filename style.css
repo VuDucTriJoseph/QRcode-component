@@ -1,18 +1,49 @@
 body {
-  background-color: beige;
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  background-color: hsl(216, 15%, 48%);
+  color: hsl(218, 44%, 22%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: flex; */
 }
 .qr-componet {
   width: 300px;
-  height: 600px;
+  /* height: 520px; */
+  /* display: 0pflex; */
+  text-align: center;
 
   border-radius: 10px;
-  background-color: hsl(228, 45%, 44%);
+  background-color: hsl(0, 0%, 100%);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .qrcode {
-  width: 380px;
-  height: 380px;
-  color: #0004ff;
+  width: 240px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.qr-componet p {
+  font-size: 1.12rem;
+  margin-bottom: 1.2rem;
+}
+
+.qr-componet h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 1.2rem;
 }
 /* img.githublink {
   color: blue;
 } */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
